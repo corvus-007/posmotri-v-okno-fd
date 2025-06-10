@@ -144,7 +144,7 @@ ol {
 }
 
 .search-form__fieldset-title {
-  margin-block-end: 5px;
+  margin-block-end: 8px;
   font-weight: inherit;
   font-size: inherit;
   line-height: 1;
@@ -178,9 +178,10 @@ ol {
   padding: 1.5px 0;
   color: inherit;
   font: inherit;
-  line-height: 1.2;
+  line-height: 1;
   background-color: transparent;
   appearance: none;
+  min-inline-size: 225px;
 }
 
 .search-form__textfield:active {
@@ -305,7 +306,7 @@ ol {
 }
 
 .content__video-card-title {
-  margin-block-end: 6px;
+  margin-block-end: 3px;
   overflow: hidden;
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
@@ -322,7 +323,7 @@ ol {
   line-height: 0.9;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 4;
-  line-clamp: 3;
+  line-clamp: 4;
 }
 
 .content__video-card-thumbnail {
