@@ -267,6 +267,7 @@ ol {
 
 .content__list-item {
   padding-inline: 3px;
+  min-inline-size: 0;
 }
 
 .content__card-link {
