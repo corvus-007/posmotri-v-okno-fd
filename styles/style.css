@@ -289,7 +289,8 @@ ol {
   outline: 1px solid currentColor;
 }
 
-.content__card-link_current {
+.content__card-link_current,
+.content__card-link:active {
   background-color: #545050;
 }
 
