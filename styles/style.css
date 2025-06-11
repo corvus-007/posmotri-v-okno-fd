@@ -52,12 +52,13 @@ ol {
 }
 
 /* Кастомный скроллбар */
+
 .custom-scrollbar::-webkit-scrollbar {
   width: 4px;
 }
 
 .custom-scrollbar::-webkit-scrollbar-track {
-  background: rgb(217 217 217 / 10%);
+  background: rgb(217 217 217 / 0.1);
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
@@ -160,9 +161,6 @@ ol {
   display: flex;
   align-items: center;
   gap: 5px;
-}
-
-.search-form__label {
   cursor: pointer;
 }
 
@@ -244,7 +242,7 @@ ol {
 }
 
 .title {
-  font-family: 'Oswald', sans-serif;
+  font-family: Oswald, sans-serif;
   font-weight: 700;
   font-size: 75px;
   line-height: 0.94;
@@ -308,7 +306,7 @@ ol {
 .content__video-card-title {
   margin-block-end: 3px;
   overflow: hidden;
-  font-family: 'Oswald', sans-serif;
+  font-family: Oswald, sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 1;
