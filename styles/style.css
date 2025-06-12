@@ -262,7 +262,6 @@ ol {
 .content__list {
   display: grid;
   gap: 30px;
-  margin-block-end: 30px;
 }
 
 .content__list-item {
@@ -336,6 +335,7 @@ ol {
 }
 
 .more-button {
+  margin-block-start: 30px;
   inline-size: 100%;
 }
 
